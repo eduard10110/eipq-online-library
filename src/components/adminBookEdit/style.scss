@@ -1,0 +1,28 @@
+.edit-modal-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    padding: 30px;
+    border: 0px;
+    border-radius: 6px;
+    .category{
+        display: flex;
+        flex-direction: column;
+        label{
+            margin-bottom: 10px;
+        }
+    }
+    div{
+        margin-bottom: 10px;
+    }
+    .textfield-column{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   .edit-label{
+        margin-bottom: 15px;
+   }
+   
+   
+}

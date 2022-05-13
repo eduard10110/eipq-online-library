@@ -1,0 +1,14 @@
+.header-container-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  .header-container {
+    padding: 1rem;
+    background-color: rgb(193, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    height: 2rem;
+  }
+}

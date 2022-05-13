@@ -1,0 +1,222 @@
+.info-wrapper{
+    min-width: 100%; 
+}
+.base_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // margin: 0 auto;
+    background-image: url("../../../image/intro-bg.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    .header {
+        font-size: 24px;
+        text-align: center;
+
+    }
+    
+
+    form{
+        box-shadow: 1px 0px 10px 4px #888888;
+        text-align: center;
+        margin-top:100px;
+        padding: 20px;
+        background-color: white;
+        
+    }
+   
+    .changeform {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+
+        .button {
+            padding: 10px 20px;
+            border: 0;
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            background-color: #3498db;
+            cursor: pointer;
+        }
+
+        .button:disabled {
+            background-color: #95bbd4;
+            cursor: no-drop;
+        }
+
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(72, 72, 72);
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+
+        .form {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+
+            .flex {
+                flex-wrap: wrap;
+                display: flex;
+            }
+
+            .formgroup {
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: fit-content;
+                margin-left: 1rem;
+
+                .label {
+                    margin-left: 5px;
+                    font-size: 15px;
+                    // margin-top: -10px;
+                }
+                
+                .input {
+                    margin-top: 10px;
+                    background: white;
+                    border: solid 1px gray;
+                    margin-left: 5px;
+                    min-width: 10em;
+                    height: 37px;
+                    padding: 0px 10px;
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    border-radius: 4px;
+                    transition: all 250ms ease-in-out;
+                }
+
+                .input-error {
+                    border: 1px solid #FF0000;
+                }
+
+                input[type=number]::-webkit-inner-spin-button,
+                input[type=number]::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                .error-message {
+                    min-width: 10em;
+                    width: 18em;
+                    color: #FF0000;
+                    font-size: 12px;
+                    margin-top: 2px;
+                    margin-left: 6px;
+                }
+
+                .input:focus {
+                    outline: none;
+                    box-shadow: 0px 0px 12px 0.8px #0e81ce;
+                }
+                
+                .select {
+                    width: 450px;
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    border: 0;
+                    border-radius: 4px;
+                    margin-left: 0.5rem;
+                     
+             
+                }
+                @media only screen and (max-width:515px) {
+                    .select {
+                        width: 210px;
+                    } 
+                }
+                
+                @media only screen and (max-width:515px) {
+                    .phone {
+                    margin-top: 6px;
+                    max-width:9em;
+                    height: 37px;
+                    padding: 0px 10px;
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    border: 1px solid gray;
+                    border-left: 0px;
+                    transition: all 250ms ease-in-out;
+                     }
+                }
+                .flag {
+                    width: 15px;
+                    
+                    margin-left: 5px;
+                }
+
+
+
+                .phone-label{
+                    margin-bottom: 10px;
+                }
+                .phone-group{
+                    display:flex;
+                }
+                .phonecode {
+                    
+                    margin-right: 0.4re;
+                    margin-top:6px;
+                    padding: 10px 10px;
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: solid 1px gray;
+                    border-right: 0;
+                    margin-left: 5px;
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+
+            .phone {
+                    margin-top: 6px;
+                    min-width: 5em;
+                    height: 37px;
+                    padding: 0px 10px;
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    border: 1px solid gray;
+                    border-left: 0px;
+                    transition: all 250ms ease-in-out;
+                }
+            }
+        }
+    }
+}
+.submit-button {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 0;
+    margin: 0 auto;
+    transition: all 0.5s linear;
+    text-decoration: none;
+}
+
+

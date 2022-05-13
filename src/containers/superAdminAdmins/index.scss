@@ -1,0 +1,29 @@
+.table-wrapper {
+  width: 100%;
+  height: 42rem;
+
+  .admins-list-header-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.add-new-admin-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 25rem;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  box-shadow: 24;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+ 
+  .modal-header {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,32 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  
+
+  .modal-header {
+    display: flex;
+    align-items: flex-start;
+
+    h3 {
+      margin: 0 auto;
+      padding: 0 auto;
+    }
+  }
+  
+  .booksList-wrapper { 
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+
+  .datePickers-wrapper {
+    display: flex;
+  }
+
+  .modal-submitButton-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}

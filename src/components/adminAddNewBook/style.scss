@@ -1,0 +1,8 @@
+.new-book-data {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    margin-bottom: 20px;
+}
+.input-type-label{
+    margin-bottom: 10px;
+}
